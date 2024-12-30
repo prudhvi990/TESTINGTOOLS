@@ -1,0 +1,15 @@
+package prudhvi.launch;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class mylaunch {
+
+	public static void main(String[] args) {
+		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\prhud\\Downloads.exe");
+		WebDriver prudhvi = new ChromeDriver();
+		prudhvi.get("https://www.facebook.com/login/");
+
+	}
+
+}
